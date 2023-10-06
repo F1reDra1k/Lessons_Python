@@ -64,4 +64,3 @@ some_text = """Hello"""
 some_text = '''Hello'''
 
 print(some_text)
-в
