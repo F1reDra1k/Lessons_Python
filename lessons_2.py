@@ -10,20 +10,29 @@
 # string - срічка
 # str
 
-# Bolean_bool(True/False)
+# Bolean_bool(True/False) - змінні
 
-# list - список []
+# list - список [] - змінні
 # tuple - кортежи ()
-# set - множина {}
-# dict - словник {key: value}
+# set - множина {} - змінні
+# dict - словник {key: value} - змінні
 
 # None
 
+# id() функція яка показує адресу файлу
+# type() функція яка тип файлу
 
-box = 1
+
+box = "hello"
 
 new_box = box
 
-box = 2
+box = "hello"
 
-print(box)
+print(new_box, type(new_box),id(new_box))
+
+# constants - ЗАВЖДИ ВЕЛИКІ
+
+PI = 3.14
+MONTHS_IN_YEAR = 12
+
