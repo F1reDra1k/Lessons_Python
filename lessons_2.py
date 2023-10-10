@@ -10,7 +10,7 @@
 # decimal - 2.999999999
 
 # string - срічка
-# str
+# str - cтрічка
 
 # Bolean_bool(True/False) - змінні
 
