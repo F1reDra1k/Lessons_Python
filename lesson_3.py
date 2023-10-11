@@ -83,22 +83,22 @@
 
 ######### input() ###### ALWAYS STRING
 # result = 0
-# try:
-#     value_1 = int(input("Please type a number(only number): "))
-# except ValueError:
-#     print("It should be a number")
-# except ZeroDivisionError:
-#     print("You can't divide to 0")
+try:
+    value_1 = int(input("Please type a number(only number): "))
+except ValueError:
+    print("It should be a number")
+except ZeroDivisionError:
+    print("You can't divide to 0")
 # except (ZeroDivisionError, ValueError):
 #     print("Sorry, the system is busy right now. Try again later")
 #
 # print(result)
 #
-# value_2 = int(input("Please type another number: "))
-#
-# result = value_1 + value_2
-#
-# print(result)
+value_2 = int(input("Please type another number: "))
+
+result = value_1 / value_2
+
+print(result)
 
 ########## Homework ###########
 
@@ -108,11 +108,11 @@
 # else:
 #     value_1 = 0
 
-value_int_1 = input("Please type a number: ")
-value_int_2 = input("Please type another number: ")
-value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \nYour answer: ")
-
-if value_operator == "1":
-    result = value_int_1 + value_int_2
-
-print(result)
+# value_int_1 = input("Please type a number: ")
+# value_int_2 = input("Please type another number: ")
+# value_operator = input("Please choose an operator: \n 1 '+'\n 2 '-'\n 3 '*'\n 4 '/' \nYour answer: ")
+#
+# if value_operator == "1":
+#     result = value_int_1 + value_int_2
+#
+# print(result)
