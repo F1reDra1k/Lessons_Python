@@ -26,9 +26,9 @@
 # value_bool_2 = False
 #
 # result_num = 11 > 2 # >, <, ==, !=, >=, <=
-# result_str = "He" in "hello!" # ==, !=, <, >, <=, >=, in
+#result_str = "He" in "hello!" # ==, !=, <, >, <=, >=, in
 #
-# print(result_str)
+#print(result_str)
 
 ######### Type #########
 
@@ -69,7 +69,7 @@
 #     print(f"{value_int} is bigger then 10")
 # else:
 #     print(f"{value_int} is less then 0")
-
+#
 # print("end")
 
 # golf, ternary operator, not
@@ -85,16 +85,15 @@
 # result = 0
 # try:
 #     value_1 = int(input("Please type a number(only number): "))
-#     result = 1 / value_1
-# # except ValueError:
-# #     print("It should be a number")
-# # except ZeroDivisionError:
-# #     print("You can't divide to 0")
+# except ValueError:
+#     print("It should be a number")
+# except ZeroDivisionError:
+#     print("You can't divide to 0")
 # except (ZeroDivisionError, ValueError):
 #     print("Sorry, the system is busy right now. Try again later")
 #
 # print(result)
-
+#
 # value_2 = int(input("Please type another number: "))
 #
 # result = value_1 + value_2
