@@ -83,22 +83,22 @@
 
 ######### input() ###### ALWAYS STRING
 # result = 0
-try:
-    value_1 = int(input("Please type a number(only number): "))
-except ValueError:
-    print("It should be a number")
-except ZeroDivisionError:
-    print("You can't divide to 0")
-# except (ZeroDivisionError, ValueError):
-#     print("Sorry, the system is busy right now. Try again later")
+# try:
+#     value_1 = int(input("Please type a number(only number): "))
+# except ValueError:
+#     print("It should be a number")
+# except ZeroDivisionError:
+#     print("You can't divide to 0")
+# # except (ZeroDivisionError, ValueError):
+# #     print("Sorry, the system is busy right now. Try again later")
+# #
+# # print(result)
+# #
+# value_2 = int(input("Please type another number: "))
+#
+# result = value_1 / value_2
 #
 # print(result)
-#
-value_2 = int(input("Please type another number: "))
-
-result = value_1 / value_2
-
-print(result)
 
 ########## Homework ###########
 
@@ -116,3 +116,5 @@ print(result)
 #     result = value_int_1 + value_int_2
 #
 # print(result)
+
+
