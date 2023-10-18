@@ -67,13 +67,13 @@
 # range(5, 10) # видача від 5 до 10(виключно) (5-9)
 # range(5, 10, 2) # видача від 5 до 10(виключно) (5-9)
 
-# value_str = "Hello"
+value_str = "Hello"
 
 # for index in range():
 #     print(index)
 
-# for index in range(len(value_str)):
-#     print(index)
+for index in range(len(value_str)):
+    print(index)
 
 # for index in range(len(value_str)):
 #     print(index, value_str[index])
