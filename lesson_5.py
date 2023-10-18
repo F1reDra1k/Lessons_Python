@@ -72,8 +72,8 @@ value_str = "Hello"
 # for index in range():
 #     print(index)
 
-for index in range(len(value_str)):
-    print(index)
+#for index in range(len(value_str)):
+    #print(index)
 
 # for index in range(len(value_str)):
 #     print(index, value_str[index])
@@ -81,8 +81,8 @@ for index in range(len(value_str)):
 
 # enumerate
 
-# for index, letter in enumerate(value_str):
-#     print(index, letter)
+#for index, letter in enumerate(value_str):
+     #print(index, letter)
 
 # for value in enumerate(value_str):
 #     print(value[0], value[1])
