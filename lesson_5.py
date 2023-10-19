@@ -72,8 +72,8 @@ value_str = "Hello"
 # for index in range():
 #     print(index)
 
-#for index in range(len(value_str)):
-    #print(index)
+for index in range(len(value_str)):
+    print(index)
 
 # for index in range(len(value_str)):
 #     print(index, value_str[index])
