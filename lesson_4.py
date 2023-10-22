@@ -98,7 +98,7 @@
 #     if value % 2:
 #         continue
 #
-#     # print(value)
+#     print(value)
 # else:
 #     print(value)
 # #
