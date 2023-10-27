@@ -202,7 +202,7 @@
 # my_list_2 = [10, 20, 30]
 # my_result = []
 #
-# for i in range(len(my_list_1)):
+# for i in range(len(my_list_1[::2])):
 #     my_result.append(my_list_1[i])
 #     my_result.append(my_list_2[i])
 #
