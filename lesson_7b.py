@@ -4,6 +4,7 @@
 # sets methods(union(), difference(), intersection())
 
 ################# list comprehension
+ # генератор
 
 # value_str = [1, 2, 3, 4]
 
