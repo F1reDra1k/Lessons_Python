@@ -81,8 +81,7 @@ square = [
     create_dot(14, 222, 414),
 ]
 
-# text = forming_string_of_obj(square, "square")
-# print(text)
-
+text = forming_string_of_obj(square, "square")
+print(text)
 
 
