@@ -49,7 +49,7 @@ import os
 #
 # data = json.loads(some_json)
 # json_data = json.dumps(data)
-#
+
 # def reading_json_readlines(file: str) -> list:
 #     with open(file, 'r') as f:
 #
