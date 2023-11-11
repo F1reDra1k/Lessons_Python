@@ -3,7 +3,7 @@
 # os (listdir, path.join, path.isfile, makedir, makedirs(exist_ok), remove)
 # json
 
-from utils.work_with_files import reading_text_file_readlines
+# from utils.work_with_files import reading_text_file_readlines
 import os
 
 # data = reading_text_file_readlines("homework/lesson_4")
@@ -11,23 +11,23 @@ import os
 # print(data)
 
 ######### os ##############
-
+#
 # filedir = "homework"
 # some_dir = ""
 # filename = "lesson_4"
+
+files_list = os.listdir()
+print(files_list)
+for file in files_list:
+    if os.path.isdir(file):
+    # if os.path.isfile(file):
+        print(file)
 #
-# files_list = os.listdir()
-# print(files_list)
-# for file in files_list:
-#     if os.path.isdir(file):
-#     # if os.path.isfile(file):
-#         print(file)
-# #
-# # data = reading_text_file_readlines("homework/lesson_4")
-# # data = reading_text_file_readlines(f"{filedir}/{some_dir}/{filename}")
+# data = reading_text_file_readlines("homework/lesson_4")
+# data = reading_text_file_readlines(f"{filedir}/{some_dir}/{filename}")
 # data = reading_text_file_readlines(os.path.join(filedir, some_dir, filename))
-#
-#
+
+
 # print(data)
 
 
