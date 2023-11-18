@@ -60,5 +60,5 @@ worker.sort_folder_objects()
 #
 # new_fo = update_folder_objects(folder, "qwe.txt")
 # new_fo = update_folder_objects(new_fo, "AAA")
-#
+
 # compare_and_create_objects(folder, 'alphabet')
