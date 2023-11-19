@@ -54,11 +54,11 @@ worker.sort_folder_objects()
 
 # folder = create_folder_describe("homework")
 # print(folder)
-#
-# sort_folder = sort_folder_objects(folder, False)
-# print(sort_folder)
-#
-# new_fo = update_folder_objects(folder, "qwe.txt")
-# new_fo = update_folder_objects(new_fo, "AAA")
-#
-# compare_and_create_objects(folder, 'alphabet')
+
+sort_folder = sort_folder_objects(folder, False)
+print(sort_folder)
+
+new_fo = update_folder_objects(folder, "qwe.txt")
+new_fo = update_folder_objects(new_fo, "AAA")
+
+compare_and_create_objects(folder, 'alphabet')

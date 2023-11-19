@@ -42,25 +42,25 @@ print(domains_list)
 # # ###############################################################
 #
 
-# authors_file = 'homework/authors.txt'
+authors_file = 'homework/authors.txt'
+
+
+def get_date_dict_from_file(filename):
+
+    data_from_file = get_lines_from_file(filename)
+
+    # new_data = [{'date': line.split(' - ')[0]} for line in data_from_file if line and '-' in line]
+
+    new_data = []
+    for line in data_from_file:
+        if line and '-' in line:
+            new_data.append({'date': line.split(' - ')[0]})
+
+    return new_data
 #
 #
-# def get_date_dict_from_file(filename):
-#
-#     data_from_file = get_lines_from_file(filename)
-#
-#     # new_data = [{'date': line.split(' - ')[0]} for line in data_from_file if line and '-' in line]
-#
-#     new_data = []
-#     for line in data_from_file:
-#         if line and '-' in line:
-#             new_data.append({'date': line.split(' - ')[0]})
-#
-#     return new_data
-# #
-# #
-# date_list = get_date_dict_from_file(authors_file)
-# print(date_list)
+date_list = get_date_dict_from_file(authors_file)
+print(date_list)
 
 #
 # # ###############################################################
