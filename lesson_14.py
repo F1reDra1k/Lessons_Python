@@ -29,7 +29,7 @@
 #         self.color = color
 #
 #     def __str__(self):
-#         return "The transport is"
+#         return "The transport is"ж
 #
 #     # def __repr__(self):
 #     #     return f"{self.color}"
